@@ -25,5 +25,3 @@ for file in files:
             if flag:
                 writeList.append([name, lan, lng, average, count])
         output.writerows(writeList)
-
-
