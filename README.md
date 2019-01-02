@@ -1,4 +1,6 @@
-#语言：python3
+ - 语言：python3
+
+ - 文件内容说明：
 ```
     |--data_spider文件夹
         |--dataset文件夹 -- 爬取的原始数据
@@ -24,8 +26,9 @@
         |--……其余文件，包含训练、测试数据集，建模文件，模型… 在建模过程.docx中有说明
 ```
 
+
+ - dataset()函数用法说明：
 ```
-dataset()函数用法说明：
 dataset(*, src='./data2', dst='./dataset', load_from_source=False)
 ```
 
